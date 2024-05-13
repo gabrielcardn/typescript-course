@@ -6,3 +6,5 @@ const sorter = new Sorter(numbersCollection);
 console.log("Before: ", sorter.collection);
 sorter.sort();
 console.log("After: ", sorter.collection);
+
+
