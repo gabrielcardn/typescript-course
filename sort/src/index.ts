@@ -1,3 +1,8 @@
-console.log("hellor world!");
+import { Sorter } from "./Sorter";
+import { NumbersCollection } from "./NumbersCollection";
 
-console.log("123")
+const numbersCollection = new NumbersCollection([10, 3, -5, 100]);
+const sorter = new Sorter(numbersCollection);
+console.log("Before: ", sorter.collection);
+sorter.sort();
+console.log("After: ", sorter.collection);
