@@ -13,3 +13,6 @@ tsc -w // will compile everything on /src (rooDir) to /build (outDir)
 # nodemon && concurrently
 - nodemon: will monitor for any changes in your source and automatically restart your process
 - concurrently: will run multiple commands concurrently.
+
+# start
+- npm start
