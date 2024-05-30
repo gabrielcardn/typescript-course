@@ -1,13 +1,5 @@
-import { User } from "./models/User";
+import { UserForm } from "./view/UserForm";
 
-const user = new User({ name: "name record", age: 0 });
+const userForm = new UserForm(document.getElementById("root"));
 
-console.log(user.get("name"));
-
-user.on("change", () => {
-  console.log("User was changed");
-});
-
-// user.trigger("change");
-
-user.set({ name: "New name" });
+userForm.render();
