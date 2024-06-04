@@ -12,4 +12,5 @@
   > npm install express body-parser cookie-session
 - Instalar os tipos:
   > npm install @types/express @types/body-parser @types/cookie-session
+  
 - O body-parse é um middleware responsável por criar o objeto 'body' que será acessado nas rotas do express
