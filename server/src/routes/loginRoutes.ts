@@ -16,6 +16,7 @@ const requireAuth = (req: Request, res: Response, next: NextFunction) => {
 const router = Router();
 
 router.get("/login", (req: Request, res: Response) => {
+  
   res.send(`
     <form method="POST">
         <div>
